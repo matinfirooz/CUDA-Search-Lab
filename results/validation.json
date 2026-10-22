@@ -1,0 +1,29 @@
+{
+  "validation_date": "2026-10-22",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "host_compiler": "g++ (Ubuntu 13.3.0-6ubuntu2~24.04) 13.3.0",
+  "cuda_compiler": "nvcc 13.4.92",
+  "cuda_target": "sm_75",
+  "cpu_correctness": "PASS: CPU | 4921 search cases | 34087 assertions",
+  "cpu_ctest": {
+    "passed": 3,
+    "failed": 0
+  },
+  "cpu_address_undefined_sanitizers": {
+    "passed": 3,
+    "failed": 0,
+    "leak_detection": false
+  },
+  "cuda_compilation": "passed",
+  "cuda_executables_linked": true,
+  "cuda_linked_ctest": {
+    "host_passed": 3,
+    "gpu_skipped": 1,
+    "failed": 0
+  },
+  "gpu_execution": "not run - no CUDA device",
+  "gpu_compute_sanitizer": "not run",
+  "github_actions": "configured - not executed",
+  "example_measurements": "CPU only; five trials after one warmup",
+  "visualization": "SVG rendered and inspected; HTML JavaScript syntax checked"
+}
