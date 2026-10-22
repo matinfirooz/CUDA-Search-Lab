@@ -1,0 +1,13 @@
+build*/
+__pycache__/
+*.pyc
+*.o
+*.a
+*.so
+*.nsys-rep
+*.ncu-rep
+results/sweep/
+results/gpu_sweep/
+results/my_gpu/
+results/my_paths.*
+results/cli_results.*
