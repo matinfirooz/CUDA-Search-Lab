@@ -1,0 +1,12 @@
+# Directed graph; vertices are 0..5. Cheapest 0->5 path has cost 8.
+6 10
+0 1 4
+0 2 1
+1 3 1
+1 4 7
+2 1 2
+2 3 5
+3 4 3
+4 5 1
+2 5 20
+0 5 50
